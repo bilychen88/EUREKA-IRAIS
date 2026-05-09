@@ -16,10 +16,9 @@ This repo provides code, datasets (EUREKA / IRAIS), training & evaluation script
 
 ## ✨ News
 
-- **[YYYY-MM-DD]**: Initial release of code and configs.
-- **[YYYY-MM-DD]**: EUREKA dataset v[VERSION] released.
+- **[2026-07-30]**: Initial release of code and configs.
+- **[YYYY-MM-DD]**: EUREKA Pretrained models v[VERSION] released.
 - **[YYYY-MM-DD]**: IRAIS dataset v[VERSION] released.
-- **[YYYY-MM-DD]**: Pretrained models available.
 
 ---
 
