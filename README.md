@@ -54,7 +54,6 @@ This project focuses on **sim-to-real transfer** using **EUREKA** (synthetic) an
 
 ---
 
-
 ## Citation
 
 If you find this project useful in your research, please cite our paper and datasets.
@@ -64,10 +63,8 @@ If you find this project useful in your research, please cite our paper and data
 ```bibtex
 @inproceedings{eureka_irais_2026,
   title     = {Amodal Instance Segmentation with IRAIS Dataset for Sim-to-Real Transfer},
-  author    = {[Author 1] and [Author 2] and [Author 3]},
-  booktitle = {[Conference/Workshop Name]},
+  author    = {Author 1 and Author 2 and Author 3},
+  booktitle = {Conference/Workshop Name},
   year      = {2026},
-  pages     = {[xx--yy]},
-  doi       = {[DOI]},
-  url       = {[PAPER_URL]},
+  url       = {PAPER_URL}
 }
