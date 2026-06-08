@@ -1,8 +1,28 @@
 # Amodal Instance Segmentation with IRAIS Dataset for Sim-to-Real Transfer
 
 <p align="center">
-  <b>ICML 2026</b> | <a href="#">Paper</a> | <a href="#">Project Page</a> | <a href="https://pan.baidu.com/s/17X0xudMqli1AU4AB0pFRCQ?pwd=jwtq">Dataset</a>
+  <b>ICML 2026</b>
 </p>
+
+<p align="center">
+  <b>Bidong Chen</b><sup>†1,2</sup>, <b>Lingui Li</b><sup>†3</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>Department of Informatics Engineering, University of Coimbra, Portugal<br/>
+  <sup>2</sup>Faculty of Applied Sciences, Macao Polytechnic University, Macao, China<br/>
+  <sup>3</sup>School of Modern Information Industry, Guangzhou College of Commerce, China
+</p>
+
+<p align="center">
+  <sup>†</sup>Corresponding author
+</p>
+
+<p align="center">
+  <a href="#">Paper</a> | <a href="#">Project Page</a> | <a href="https://pan.baidu.com/s/17X0xudMqli1AU4AB0pFRCQ?pwd=jwtq">Dataset</a>
+</p>
+
+---
 
 <p align="center">
   <img src="Overall.png" alt="Overall Framework" width="100%"/>
