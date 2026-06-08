@@ -45,6 +45,6 @@ Under the `3D-IRAIS -> Real-IRAIS` setting, the model is trained only on synthet
 
 ## Dataset
 
-https://pan.baidu.com/s/17X0xudMqli1AU4AB0pFRCQ?pwd=jwtq
+https://pan.baidu.com/s/17X0xudMqli1AU4AB0pFRCQ?
 
 ### Coming soon...
