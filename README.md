@@ -1,62 +1,42 @@
 # Amodal Instance Segmentation with IRAIS Dataset for Sim-to-Real Transfer
 
-# Coming soon......
+**Bidong Chen, Lingui Li**
 
-[![Paper](https://pfst.cf2.poecdn.net/base/image/2be0e06e99303c917fd1d7524cde71aab5065ef80caadca2c828fe8b0e0f84d7?pmaid=615719551)][paper]
-[![Project Page](https://pfst.cf2.poecdn.net/base/image/0d9b84d07bd2fa82bb5490a2becf12b1ee8360946499ccee48760d2edc10424f?pmaid=615719549)][project]
-[![License](https://img.shields.io/badge/License-[LICENSE_NAME]-green)][license]
-[![Dataset](https://pfst.cf2.poecdn.net/base/image/6972aa3655a10a08e5927958d4ead8fa31c9cd3c9cdbfe2ce8675b1996cf6cec?pmaid=615719548)][dataset]
+[[`Paper PDF`](./Bidong%20Chen_ICML_2026_Amodal_Instance_Segmentation_with_IRAIS_Dataset_for_Sim_to_Real_Transfer.pdf)] [[`Reading Notes (ZH)`](./comprehension/comprehension.md)]
 
-Official repository for **"Amodal Instance Segmentation with IRAIS Dataset for Sim-to-Real Transfer"**.  
-This repo provides code, datasets (EUREKA / IRAIS), training & evaluation scripts, and baseline models.
+This repository presents three core components from **Amodal Instance Segmentation with IRAIS Dataset for Sim-to-Real Transfer**: `MaviGen`, `Sim-to-Real`, and `EUREKA`. The overall goal is to improve real-world amodal instance segmentation in heavily occluded retail scenes via geometry-controllable synthetic data and a unified modeling approach.
 
-> **Keywords**: Amodal Instance Segmentation, Sim-to-Real Transfer, Synthetic-to-Real, Occlusion Reasoning, Instance Segmentation
+<p align="center">
+  <img src="/assets/figure7.png" alt="Figure 7 qualitative results across benchmarks" width="90%"/>
+</p>
 
----
+The paper shows strong and consistent amodal segmentation quality across multiple AIS benchmarks. Compared with representative baselines such as APSNet, VRSP-Net, ORCNN, and AISFormer, the proposed method achieves clearly stronger overall performance in both retail occlusion settings and open-world scenes.
 
-## ✨ News
+## Sim-to-Real Generalization: 3D-IRAIS -> Real-IRAIS
 
-- **2026-07-30**: Initial release of code and configs. *(planned)*
-- **YYYY-MM-DD**: EUREKA pretrained models vX.Y *(planned)*
-- **YYYY-MM-DD**: IRAIS dataset vX.Y  *(planned)*
----
+<p align="center">
+  <img src="/assets/table3.png" alt="Sim-to-real results" width="95%"/>
+</p>
 
-## Overview
+Under the `3D-IRAIS -> Real-IRAIS` setting, the model is trained only on synthetic data and still achieves clearly stronger amodal and visible metrics on real retail images. This result highlights the paper's strong sim-to-real generalization capability.
 
-Amodal instance segmentation aims to predict **complete object masks** including **occluded regions**.  
-This project focuses on **sim-to-real transfer** using **EUREKA** (synthetic) and **IRAIS** (real or mixed) datasets to improve robustness under occlusion.
+<p align="center">
+  <img src="/assets/MaviGen.png" alt="MaviGen pipeline overview" width="100%"/>
+</p>
 
-**Contributions (example)**:
-- A new dataset: **IRAIS** for amodal segmentation and sim-to-real transfer.
-- A synthetic dataset: **EUREKA** with controllable occlusions and domain randomization.
-- A baseline/approach: **[METHOD_NAME]** for improved transfer performance.
-- Benchmarks and evaluation protocols.
+## Data Generation: MaviGen
 
----
+`MaviGen` is the data generation engine of this work. It automatically builds 3D retail scenes and produces scalable synthetic training data. Beyond amodal labels, it also provides geometry signals such as depth, occlusion order, and camera parameters, enabling richer supervision for sim-to-real learning.
 
-## Repository Structure
+<p align="center">
+  <img src="/assets/EUREKA.png" alt="EUREKA architecture overview" width="100%"/>
+</p>
 
-```text
-.
-├── configs/                 # training/eval configs
-├── datasets/
-│   ├── eureka/              # dataset scripts or meta files
-│   └── irais/
-├── tools/                   # training/eval tools
-├── scripts/                 # helper scripts (download, preprocess, etc.)
-├── src/                     # core library code
-├── checkpoints/             # (optional) pretrained weights (or leave empty)
-├── docs/                    # additional documentation
-└── README.md
+## Model: EUREKA
 
----
+`EUREKA` is the proposed amodal instance segmentation model. It uses a unified instance representation to jointly handle visible-region prediction and full amodal completion, forming the core model component of the overall pipeline together with `MaviGen` and `IRAIS`.
 
+## Authors
 
-## Citation
-@inproceedings{eureka_irais_2026,
-  title     = {Amodal Instance Segmentation with IRAIS Dataset for Sim-to-Real Transfer},
-  author    = {Author 1 and Author 2 and Author 3},
-  booktitle = {Conference/Workshop Name},
-  year      = {2026},
-  url       = {PAPER_URL}
-}
+- Bidong Chen
+- Lingui Li
