@@ -9,7 +9,9 @@ This repository presents three core components from **Amodal Instance Segmentati
 </p>
 
 <p align="center">
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
 </p>
 
 <p align="center">
