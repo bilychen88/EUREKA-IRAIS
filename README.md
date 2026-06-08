@@ -5,12 +5,6 @@
 </p>
 
 <p align="center">
-  <sup>1</sup>Department of Informatics Engineering, University of Coimbra, Portugal<br/>
-  <sup>2</sup>Faculty of Applied Sciences, Macao Polytechnic University, Macao, China<br/>
-  <sup>3</sup>School of Modern Information Industry, Guangzhou College of Commerce, China
-</p>
-
-<p align="center">
   <sup>†</sup>Corresponding author
 </p>
 
