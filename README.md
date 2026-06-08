@@ -13,17 +13,7 @@
 </p>
 
 <p align="center">
-  ✨ <b>Bidong Chen</b><sup>†1,2</sup>, <b>Lingui Li</b><sup>†3</sup> ✨
-</p>
-
-<p align="center">
-  <sup>1</sup>Department of Informatics Engineering, University of Coimbra, Portugal<br/>
-  <sup>2</sup>Faculty of Applied Sciences, Macao Polytechnic University, Macao, China<br/>
-  <sup>3</sup>School of Modern Information Industry, Guangzhou College of Commerce, China
-</p>
-
-<p align="center">
-  <sup>†</sup>Corresponding author
+  ✨ <b>Bidong Chen</b>, <b>Lingui Li</b> ✨
 </p>
 
 <p align="center">
@@ -43,6 +33,8 @@
     <img src="https://img.shields.io/badge/💻_Code-GitHub-black?style=for-the-badge&logo=github&logoColor=white" alt="Code"/>
   </a>
 </p>
+
+---
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/your-repo?style=social" alt="Stars"/>
