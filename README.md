@@ -10,9 +10,10 @@ This repository presents three core components from **Amodal Instance Segmentati
 
 <p align="center">
 
-
-
 </p>
+
+<br/>
+<br/>
 
 <p align="center">
   <img src="figure7.png" alt="Figure 7 qualitative results across benchmarks" width="90%"/>
