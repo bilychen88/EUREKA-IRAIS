@@ -36,11 +36,11 @@
 
 ---
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://img.shields.io/github/stars/your-repo?style=social" alt="Stars"/>
   <img src="https://img.shields.io/github/forks/your-repo?style=social" alt="Forks"/>
   <img src="https://img.shields.io/github/watchers/your-repo?style=social" alt="Watchers"/>
-</p>
+</p> -->
 
 ---
 
